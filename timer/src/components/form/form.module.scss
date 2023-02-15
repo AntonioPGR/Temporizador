@@ -1,0 +1,42 @@
+.container{
+  grid-column: 1 / 2;
+}
+
+.inputsContainer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.formSection{
+
+  margin: 0 50px 20px 0;
+
+  > * {
+    display: block;
+  }
+
+  .question{
+    margin: 0 0 10px 0;
+  }
+
+  .question::after{
+    content: ":";
+    font-weight: 700;
+  }
+
+  .formInput{
+
+    background-color: rgba(127, 108, 213, 0.3);
+    border: 1px solid rgba(127, 108, 213, 0.5);
+    border-radius: 17px;
+    padding: 10px;
+  
+  }
+
+}
+
+.button{
+  text-align: center;
+}

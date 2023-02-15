@@ -1,0 +1,11 @@
+.container{
+  text-align: center;
+  grid-column: 1 / 2;
+
+  > *{
+    margin-bottom: 15px;
+  }
+  > *:last-child{
+    margin-bottom: 0;
+  }
+}

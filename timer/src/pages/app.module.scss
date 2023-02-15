@@ -1,0 +1,38 @@
+.appContainer{
+  width: 80vw;
+  max-height: 70vh;
+
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 10px;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+
+  @media screen and (max-width:600px) {
+    display: block;
+    overflow-y: scroll;
+    height: 80vh;
+  }
+
+  @media screen and (max-width:300px) {
+    overflow-y: scroll;
+    height: 95vh;
+  }
+
+
+  > *{
+    padding: 15px 20px;
+  }
+
+  @media screen and (max-width:800px) {
+    width: 100vw;
+  }
+
+}

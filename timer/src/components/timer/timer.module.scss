@@ -1,0 +1,24 @@
+.timer{
+  background-color: #7f6cd580;
+  padding: 10px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 5rem;
+  
+  > span {
+    color: #fff;
+  }
+
+  > div {
+    background-color: white;
+    color: #7f6cd5;
+    padding: 10px 5px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px #7f6cd57a;
+  }
+
+}

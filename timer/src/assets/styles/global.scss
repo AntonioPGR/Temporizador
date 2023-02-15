@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  vertical-align: baseline;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body{
+  background-image: url("../images/day_city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  background-color: #7e6bccc4;
+}
+
