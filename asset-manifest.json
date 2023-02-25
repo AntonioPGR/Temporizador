@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Temporizador/static/css/main.fbb0d9d3.css",
+    "main.js": "/Temporizador/static/js/main.29e751f6.js",
+    "static/media/day_city.jpg": "/Temporizador/static/media/day_city.c7986a26855c27f9a23a.jpg",
+    "index.html": "/Temporizador/index.html",
+    "main.fbb0d9d3.css.map": "/Temporizador/static/css/main.fbb0d9d3.css.map",
+    "main.29e751f6.js.map": "/Temporizador/static/js/main.29e751f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbb0d9d3.css",
+    "static/js/main.29e751f6.js"
+  ]
+}
